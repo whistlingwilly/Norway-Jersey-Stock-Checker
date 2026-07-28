@@ -1,0 +1,69 @@
+{
+  "size": "XL",
+  "interval_seconds": 180,
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "from": "youraddress@gmail.com",
+    "password": "your-16-char-app-password",
+    "to": "youraddress@gmail.com"
+  },
+  "targets": [
+    {
+      "name": "Nike — Stadium Home (Dri-FIT)",
+      "kind": "nike",
+      "url": "https://www.nike.com/t/norway-national-team-2026-stadium-home-mens-dri-fit-soccer-jersey-XFHheFPZ/IB5316-673"
+    },
+    {
+      "name": "Nike — Match Home / official patch (Aero-FIT)",
+      "kind": "nike",
+      "url": "https://www.nike.com/t/norway-national-team-2026-match-home-mens-aero-fit-soccer-jersey-FOyGGFwA/IB5170-673"
+    },
+    {
+      "name": "Scheels — Haaland #9 Home Replica",
+      "kind": "scheels",
+      "url": "https://www.scheels.com/p/nike-norway-erling-haaland-%239-2026-home-replica-jersey/1005-IB5316-9"
+    },
+    {
+      "name": "Fanatics — Haaland Home Replica (Red)",
+      "kind": "fanatics",
+      "url": "https://www.fanatics.com/soccer-national-teams/norway-national-team/erling-haaland-norway-national-team-nike-2026-home-stadium-replica-jersey-red/o-2589+t-43148486+p-5799692167793+z-9-838497544?sku=212228015"
+    },
+    {
+      "name": "ProSoccer — Stadium Home",
+      "kind": "shopify",
+      "url": "https://www.prosoccer.com/products/nike-2026-27-norway-mens-stadium-home-soccer-jersey?variant=48298021323007"
+    },
+    {
+      "name": "ProSoccer — Authentic Home",
+      "kind": "shopify",
+      "url": "https://www.prosoccer.com/products/nike-2026-27-norway-mens-authentic-home-soccer-jersey?variant=48297907224831"
+    },
+    {
+      "name": "Azteca Soccer — World Cup 2026 Home",
+      "kind": "shopify",
+      "url": "https://aztecasoccer.com/products/nike-mens-norway-world-cup-2026-home-jersey-red-navy"
+    },
+    {
+      "name": "Pro:Direct Soccer — Stadium Home",
+      "kind": "shopify",
+      "url": "https://www.prodirectsport.us/products/nike-norway-2026-dri-fit-stadium-home-jersey-chile-red-chile-red-white-mens-replica-1053667?variant=42574572912727"
+    },
+    {
+      "name": "Soccer Unlimited USA — Stadium Home",
+      "kind": "generic",
+      "url": "https://www.soccerunlimitedusa.com/shop/new/nike-norway-national-team-2026-stadium-home-jersey-chile-red-white/"
+    },
+    {
+      "name": "Strictly Soccer — Stadium Home",
+      "kind": "shopify",
+      "url": "https://strictlysoccer.net/products/norway-2026-stadium-home-mens-nike-dri-fit-soccer-replica-jersey?variant=45600598884396"
+    },
+    {
+      "name": "TUDN Fan Shop — Stadium Home",
+      "kind": "shopify",
+      "url": "https://www.tudnfanshop.com/products/nike-mens-norway-home-2026-stadium-jersey?variant=48783639478489"
+    }
+  ]
+}
