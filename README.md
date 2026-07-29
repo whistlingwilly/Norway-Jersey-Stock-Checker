@@ -20,43 +20,8 @@ big retail sites don't block it.
 
 ## Get it running
 
-There are two ways: download a prebuilt app (easiest), or run from source.
+Download zip, build exe, open dist folder, JerseyChecker, run JerseyChecker app.
 
-### Option A — Download the app (Windows, no Python needed)
-
-1. Go to the [**Releases**](../../releases) page and download
-   `JerseyChecker-Windows.zip`.
-2. Unzip it anywhere (Desktop is fine).
-3. Open `config.json` in Notepad and set what you want to watch (see
-   [Configuration](#configuration)).
-4. Double-click `JerseyChecker.exe`.
-
-> Windows may show a SmartScreen warning because the app isn't code-signed.
-> Click **More info → Run anyway**. (It's an open-source app you can inspect and
-> build yourself.) Some antivirus tools flag PyInstaller apps as a false
-> positive; if that happens, build from source instead.
-
-### Option B — Build the app yourself (Windows)
-
-1. Install [Python](https://www.python.org/downloads/). On the first installer
-   screen, **check "Add python.exe to PATH."**
-2. Download this repo (green **Code** button → Download ZIP) and unzip it.
-3. Double-click **`build_exe.bat`**. It installs everything, downloads the
-   browser, and builds the app. When it says **DONE**, your app is in
-   `dist\JerseyChecker\`.
-4. Double-click `dist\JerseyChecker\JerseyChecker.exe`.
-
-### Option C — Run from source (Windows / macOS / Linux)
-
-```bash
-pip install -r requirements.txt
-patchright install chromium
-python jersey_checker.py
-```
-
-On macOS/Linux you can instead run `./run.sh`.
-
----
 
 ## Using the app
 
